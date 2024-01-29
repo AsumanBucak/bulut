@@ -15,3 +15,4 @@ ENV NAME World
 
 # Container başlatıldığında app.py dosyasını çalıştır
 CMD ["python", "app.py"]
+
