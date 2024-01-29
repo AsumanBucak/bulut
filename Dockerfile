@@ -14,5 +14,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 ENV NAME World
 
 # Container başlatıldığında app.py dosyasını çalıştır
-CMD ["python", "app.py"]
+CMD ["python3", "app.py"]
 
