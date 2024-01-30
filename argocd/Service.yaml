@@ -4,7 +4,7 @@ metadata:
   name: devopsodev-servis
 spec:
   selector:
-    name: devopsodev
+    app: devopsodev
   ports:
     - protocol: TCP
       port: 80
