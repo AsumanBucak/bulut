@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: devopsodev-kub
-        image: asumanbucak/bulut:v1
+        image: asumanbucak/bulut:v3
         ports:
-        - containerPort: 8080
+        - containerPort: 5000

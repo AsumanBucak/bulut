@@ -13,8 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Dünya adında bir ortam değişkeni tanımla
 ENV NAME World
 
-ENV PATH="/app:${PATH}": PATH içine /app dizinini ekliyoruz.
-
 EXPOSE 5000
 # Container başlatıldığında app.py dosyasını çalıştır
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
+
+
